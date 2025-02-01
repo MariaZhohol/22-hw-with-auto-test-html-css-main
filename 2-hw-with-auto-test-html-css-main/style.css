@@ -1,6 +1,6 @@
 * {
-    padding: 0px;/* Свойства для сброса начальных стилей элементов */
-    margin: 0px;
+    padding: 0;/* Свойства для сброса начальных стилей элементов */
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -26,7 +26,7 @@ header span {
 .main-section {
     background-color: #fafaff;
     padding: 60px 0;
-    height: 100%
+    min-height: 100vh;
     /* Стили для первой секции */
 }
 
@@ -51,7 +51,7 @@ header span {
 .about-section {
     background-color: #fff; /* Стили для второй секции */
     padding: 11px 0 89px;
-    height: 100%
+    min-height: 100vh;
 }
 
 select {
@@ -125,8 +125,6 @@ table {
     border: 1px solid #95a1bb;
     font-weight: 400;
     font-size: 14px;
-    width: 300px;
-    height: 196px;
     /* Стили для таблицы */
 }
 
