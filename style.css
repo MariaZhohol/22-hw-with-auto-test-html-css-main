@@ -84,7 +84,7 @@ select {
 .books-list {
     font-weight: 400;
     font-size: 16px;
-    padding-left: 0 20px;
+    padding: 0 20px;
     /* Стили для нумерованного списка во второй секции */
 }
 
@@ -129,7 +129,7 @@ table {
 }
 
 th, td {
-    padding-left: 12 px 15px;
+    padding: 12px 15px;
     /* Стили для ячеек таблицы */
 }
 
